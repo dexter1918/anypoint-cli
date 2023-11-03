@@ -57,4 +57,6 @@
 
 **Note**: You can set your authentication credentials using commands as well. Follow this link for the same - [Authentication with AnyPoint CLI](https://docs.mulesoft.com/anypoint-cli/4.x/auth#credentials-file)
 
+**Note**: Set the ANYPOINT_PROFILE environment variable to tell the CLI agent which authentication profile (eg.: otherProfile, connAppProfile) to use in the credentials file. Without the ANYPOINT_PROFILE environment variable set, it uses the default one.
+
 **Recommended Authentication Mechanism**: Connected App Creds (Client ID and client secret)
